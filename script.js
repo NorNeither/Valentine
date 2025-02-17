@@ -16,8 +16,8 @@ noBtn.addEventListener('touchstart', (e) => {
 });
 
 function moveButton() {
-    const x = Math.random() * (window.innerWidth - 20);
-    const y = Math.random() * (window.innerHeight - 10);
+    const x = Math.random() * (window.innerWidth - 2);
+    const y = Math.random() * (window.innerHeight - 1);
     noBtn.style.transform = `translate(${x}px, ${y}px) scale(1.1)`;
     noBtn.style.transition = 'all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)';
 }
